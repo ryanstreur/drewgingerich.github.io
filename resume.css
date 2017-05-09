@@ -19,7 +19,7 @@ pre {
 }
 span {
     width: 100%;
-    margin: 12px 0 2px 0;
+    margin: 6px 0 6px 0;
     border-top: solid 1px;
     border-bottom: solid 1px;
     text-align: center;
@@ -40,14 +40,43 @@ h4 {
     display: block;
     border-bottom: dashed 1px;
 }
-h5 {
+h5, h6 {
+    display: inline-block;
     font-size: 12px;
     font-weight: normal;
     font-style: italic;
 }
+h5 {
+    float: left;
+}
+h6 {
+    float: right;
+}
 p, li {
     margin-left: 20px;
+    clear: both;
 }
-li {
-
+.commandline {
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+.keyword {
+    color: #00D0FF;
+}
+.variable {
+    color: #FF9800;
+}
+.type {
+    color: #B500DD;
+}
+.string {
+    color: #39CC00;
+}
+.mistake {
+    text-decoration: line-through;
+}
+.handwritten {
+    font-size: 14px;
+    font-family: 'Walter Turncoat', cursive;
 }

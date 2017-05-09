@@ -2,37 +2,36 @@
 <html>
 <head>
   <title>Drew Gingerich is Doing Things</title>
-  <link rel="stylesheet" href="resume.css">
+  <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+  <link href="resume.css" rel="stylesheet">
 </head>
 
 <body>
 
 <pre>
-using Resources.Time;
-using Social.SellYourself;
+<font class="keyword">using</font> Resources.Coffee;
+<font class="keyword">using</font> Future.Sleep;
 
-public class DrewGingerich: Dancer {
+<font class="keyword">public class</font> <font class="variable">DrewGingerich</font> : <font class="mistake">Human</font> <font class="mistake handwritten">Dancer</font> <font class="type handwritten">Developer</font> {
 
-    public Dictionary<string, Url> contactInfo = new Dictionary<string, Url> ()
-    {
-        { "GitHub", new Url("github.com/drewgingerich")},
-        { "LinkedIn", new Url("linkedin.com/in/drewgingerich")},
-        { "Email", new Url("gingerich93@gmail.com")},
+    <font class="keyword">public</font> <font class="keyword">static</font> <font class="type">Dictionary</font><<font class="type">string</font>, <font class="type">Url</font>> <font class="variable">contactInfo</font> = <font class="keyword">new</font> Dictionary<string, Url> () {
+        { <font class="string">"GitHub"</font>, <font class="keyword">new</font> Url(<font class="string">"github.com/drewgingerich"</font>)},
+        { <font class="string">"LinkedIn"</font>, <font class="keyword">new</font> Url(<font class="string">"linkedin.com/in/drewgingerich"</font>)},
+        { <font class="string">"Email"</font>, <font class="keyword">new</font> Url(<font class="string">"gingerich93@gmail.com"</font>)},
     };
 
-    public void Start () {
-        Debug.Log( base.PrintResume() )
+    <font class="keyword">public</font> <font class="type">void</font> Start () {
+        <font class="keyword">if</font> ( shuckleIsBestPokemon == <font class="type">True</font> ) <font class="keyword">base</font>.PrintResume();
     }
 }
 </pre>
 
 <span></span>
 
-<pre>
-Drewtooroo 02:06 [Resume]$ bash ./prepare_resume.sh
-> Typesetting resume...
-> Preparing preview...
->
+<pre class="commandline">
+Drewtooroo 02:06AM [ResumeDir]$ bash ./prepare_resume.sh
+> Typesetting document...Done
+> Preparing preview...Done
 </pre>
 
 <h4>The Nutshell</h4>
@@ -49,21 +48,21 @@ Drewtooroo 02:06 [Resume]$ bash ./prepare_resume.sh
 <p>Angular2, SQL, Javascript, Typescript, Objective-C, C, LaTeX</p>
 
 <h4>Projects</h4>
-<h5>Gladiatorzzz Unity Game</h5>
-<p>A small turn-based combat game in an arena to learn Unity. I gave myself the constraint of finding a way to create space in combat without using physical space. I developed a combat system centered around manipulating the frequency of offense/defense cycles to create space in which to maneuver while also presenting meaningful short and long-term decisions to the player. In progress!</p>
+<h5>Gladiatorzzz Unity Game</h5><h6>(ongoing)</h6>
+<p>A small turn-based combat game I'm using to learn Unity. I gave myself the constraint of finding a way to create space in combat without using physical space. I developed a combat system centered around manipulating the frequency of offense/defense cycles to create space in which to maneuver while also presenting meaningful short and long-term decisions to the player.</p>
 <li>Developed a highly general combat system using C# events and reference values.</li>
 <li>Created data-driven fighter and ability systems using Unity's ScriptableOjbect.</li>
 <li>Focused on a decoupled, modular code architecture to ease future development.</li>
 
 
-<h5>Safe Journeys Web App</h5>
+<h5>Safe Journeys Web App</h5><h6>(ongoing)</h6>
 <p>In light of the rising frequency of hate crimes, I have been constructing a web app to match people who want someone around as a buffer and to help deescalate situations with someone who wants to help. In progress!</p>
-<li>Geopositioning-enabled backend with Django/GeoDjango and Postgresql/postgis.</li>
+<li>Geopositioning-enabled backend with Django/GeoDjango and PostgreSQL/postgis.</li>
 <li>RESTful api with Django REST framework.</li>
 <li>Reactive front end with Angular2.</li>
 
 <h4>Work</h4>
-<h5>Research Assistant II:</h5>
+<h5>Research Assistant II - Oregon Health and Science University, Portland, OR</h5><h6>(June 2016 - present)</h6>
 <li>Quickly adapted to the field of electron microscopy by applying critical thinking to accelerate self-study.</li>
 <li>Revitalized a stalled lab by bringing our lab's technology and techniques up to date.</li>
 <li>Set up a lab supercluster environment on the OHSU Advanced Computing Cluster.</li>
