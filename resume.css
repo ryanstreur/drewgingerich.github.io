@@ -35,7 +35,6 @@ aside > p {
 }
 h4 {
     font-size: 12px;
-    margin: 12px 0 6px 0;
     width: 100%;
     display: block;
     border-bottom: dashed 1px;
@@ -45,12 +44,6 @@ h5, h6 {
     font-size: 12px;
     font-weight: normal;
     font-style: italic;
-}
-h5 {
-    float: left;
-}
-h6 {
-    float: right;
 }
 p, li {
     margin-left: 20px;
@@ -79,4 +72,18 @@ p, li {
 .handwritten {
     font-size: 14px;
     font-family: 'Walter Turncoat', cursive;
+}
+.halfbreak {
+    float: left;
+    width: 100%;
+    height: 6px;
+}
+.fullbreak {
+    height: 12px;
+}
+.longtitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
