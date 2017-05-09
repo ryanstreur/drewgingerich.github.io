@@ -1,0 +1,53 @@
+@page {
+    margin: 0;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    tab-size: 40pt;
+}
+body {
+    width: 8.5in;
+    height: 11in;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    padding: 0.4in 0.75in 0 0.75in;    
+}
+pre {
+    font-family: "Menlo";
+    font-size: 11px;
+}
+span {
+    width: 100%;
+    margin: 12px 0 2px 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+div {
+    display: flex;
+    align-contents: flex-start;
+}
+aside > p {
+    margin: 0 5px 0 0;
+}
+h4 {
+    font-size: 12px;
+    margin: 12px 0 6px 0;
+    width: 100%;
+    display: block;
+    border-bottom: dashed 1px;
+}
+h5 {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+p, li {
+    margin-left: 20px;
+}
+li {
+
+}
