@@ -1,3 +1,11 @@
+/* Comment this out to print in color */
+@media print {
+    pre, font {
+        background-color: #263238 !important;
+        color: white !important;
+    }
+}
+
 @page {
     margin: 0;
 }
