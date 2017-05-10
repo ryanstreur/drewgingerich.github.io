@@ -4,7 +4,14 @@
         background-color: #263238 !important;
         color: white !important;
     }
+    h4, h5, p, li {
+        color: black !important;
+    }
+    #download {
+        display: none !important;
+    }
 }
+/**/
 
 @page {
     margin: 0;
@@ -28,10 +35,9 @@ pre {
     color: white;
     padding: 5px;
 }
-span {
+body > span {
     width: 100%;
     padding: 1px 0 1px 0;
-    
     display: block;
     font-family: "Menlo";
     font-size: 11px;
@@ -58,7 +64,18 @@ p, li {
     margin-left: 20px;
     clear: both;
 }
-
+a {
+    text-decoration: none;
+    color: #39CC00;
+}
+#download {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
 .longtitle {
     width: 100%;
     display: flex;
@@ -86,6 +103,6 @@ p, li {
 .string {
     color: #39CC00;
 }
-.spacer {
-    fint-size: 6px;
+.regular {
+    color: white;
 }
